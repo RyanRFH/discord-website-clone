@@ -1,78 +1,41 @@
-/* 
-@font-face {
-    font-family: "Rubik", sans-serif;
-    src: local("Resources\discord-font\Rubik_Font\Rubik-VariableFont_wght.ttf"), url(Resources\discord-font\Rubik_Font\Rubik-VariableFont_wght.ttf);
-}
-
-@font-face {
-    font-family: "Belanosima", sans-serif;
-    src: local("Resources\title-font\Belanosima\Belanosima-Regular.ttf"), url(Resources\title-font\Belanosima\Belanosima-Regular.ttf);
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Rubik:wght@300&display=swap');
 
 body {
     background-color: red;
-    /* border: 5px solid yellow; */
     margin: 0;
     filter:brightness(115%);
 }
 
-
-
 #navBarContainer {
-    /* border: 10px solid green; */
     display: flex;
     background-color: rgb(77, 77, 230);
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
     justify-content:space-evenly;
     font-size: 15px;
     align-items: center;
-    /* justify-items: center; */
-    /* font-weight: 500; */
     padding: 1vw;
-    /* color: white; */
     font-family: sans-serif;
     font-weight: 600;
-    
 }
 
 #discordLogoButton {
-    /* border: 5px solid green; */
-    /* background-color: rgb(83, 83, 204); */
     display: flex;
-    /* padding: 0 18%; */
     justify-content: flex-end;
     flex-grow: 0.25;
-    
-    
-    
 }
 
 .discordLogo {
-    /* border: 5px solid green; */
-    /* background-color: rgb(83, 83, 204); */
     display: flex;
 }
 
 #pageLinks {
-    /* border: 6px solid yellow; */
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content:space-between; */
     justify-content:center;
-    
-    
-    /* align-items: center; */
     gap: 15%;
     padding: 0 10%;
-    /* background-color: rgb(83, 83, 204); */
 }
 
 #openDiscordButtonContainer {
     display: flex;
-    /* border: 5px solid orange; */
     flex-grow: 0.2;
 }
 
@@ -86,136 +49,70 @@ body {
     text-decoration: none;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
-    
-    /* border: 5px solid orange; */
-    /* justify-content: center; */
-    /* flex-grow: 0.6; */
-    /* padding: 0 1%; */
 }
 
-/* .discordIcon {
-    display: flex;
-    flex-grow: 0.4;
-    justify-content: center;
-} */
-
-
 .navBarElement {
-    /* border: 3px solid red; */
-    /* background-color: rgb(83, 83, 204); */
     text-decoration: none;
     color: white;
 }
 
-/* .box {
-    color: white;
-    font-size: 100px;
-    font-family: 'Montserrat Alternates', sans-serif;
-    text-align: center;
-    padding: 20px;
-    width: 300px;
-} */
-
 #topPanel {
-    /* border: 5px solid green; */
     display: flex;
     background-color: rgb(64, 78, 237);
     height: 60vh;
     align-items: flex-end;
-    
     flex-direction: row;
-
-    /* height: 550px; */
-    /* max-width: 100%; */
-    
-    /* padding: 5% 0%; */
-    /* position: relative; */
-
-    
-    
 }
 
 .topPanelImages {
-    /* border: 3px solid yellow; */
     display: flex;
-    
-    
 }
 
 .topPanelImage1 {
-    /* border: 3px solid black; */
     display: flex;
     z-index: 1;
     position: relative;
     left: -5%;
-    /* top: 280px; */
-    /* bottom: -60px; */
-    /* left: -30px; */
     padding: 0px;
-    
-   
 }    
-
 
 /* This image needs to be sized to 2560px and then shrunk down with aspect ratio to 1920 (I think)    */
 .topPanelBackgroundImage {
-    /* border: 3px solid black; */
     display: flex;
     position: absolute;
-    /* top: 55px; */
-    /* left: -700px; */
-    /* top: -100px; */
     z-index: 0;
-    /* height: 100%; */
     width: 100%;
-    /* padding: 0px; */
-
-    
-    /* max-width: 100%; */
-    /* aspect-ratio: auto; */   
 }
 
 .topPanelImage3 {
-    /* border: 3px solid black; */
     display: flex;
     position: relative;
-    /* left: 1500px; */
-    /* left: -1300px; */
-    /* top: 315px; */
     z-index: 1;
     left: -5%;
 }
 
 #topPanelContent {
-    /* border: 3px solid black; */
     display: flex;
     position: relative;
     left: -5%;
-    /* padding: 2.5% 0px; */
     height: 85%;
-    /* left: 700px; */
-    /* left: -2500px; */
     align-items: center;
     z-index: 1;
     flex-direction: column;
 }
 
 #topPanelTitle {
-    /* border: 3px solid red; */
     display: flex;
     justify-content: center;
-    /* position: relative; */
     font-weight: 900;
     color: white;
     margin: 0px;
     white-space: nowrap;
-    /* height: 50px; */
     font-family: 'Belanosima', sans-serif;
     font-size: 500%;
 }
 
 #topPanelText {
-    /* border: 3px solid yellow; */
     display: flex;
     text-align:center;
     line-height: 1.625;
@@ -226,7 +123,6 @@ body {
 }
 
 #p1ContentButtons {
-    /* border: 3px solid yellow; */
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -242,7 +138,6 @@ body {
 }
 
 #p1DlForWindowsButton {
-    /* border: 3px solid red; */
     text-decoration: none;
     height: 100%;
     color: black;
@@ -254,7 +149,6 @@ body {
 }
 
 #p1OpenInBrowserButton {
-    /* border: 3px solid red; */
     text-decoration: none;
     height: 100%;
     color: white;
@@ -275,7 +169,6 @@ body {
 }
 
 #secondPanel {
-    /* border: 3px solid yellow; */
     display: flex;
     background-color: white;
     height: 80vh;
@@ -285,7 +178,6 @@ body {
 }
 
 .studyGroupPicture {
-    /* border: 3px solid orange; */
     position: relative;
     top: 50px;
     animation-name: contentAnimation;
@@ -295,7 +187,6 @@ body {
 }
 
 .p2Content {
-    /* border: 3px solid orange; */
     width: 25%;
     height: 75%;
     position: relative;
@@ -307,20 +198,17 @@ body {
 }
 
 #p2Title {
-    /* border: 3px solid green; */
     font-size: 50px;
     font-weight: 700;
     max-height: 70%;
 }
 
 #p2Text {
-    /* border: 3px solid black; */
     font-size: 24px;
     color: rgb(35,39,42);
 }
 
 #thirdPanel {
-    /* border: 3px solid yellow; */
     display: flex;
     background-color: rgb(212, 212, 212);
     height: 80vh;
@@ -331,7 +219,6 @@ body {
 }
 
 .chatRoomPicture {
-    /* border: 3px solid orange; */
     position: relative;
     top: 50px;
     animation-name: contentAnimation;
@@ -341,7 +228,6 @@ body {
 }
 
 .p3Content {
-    /* border: 3px solid orange; */
     width: 25%;
     height: 75%;
     position: relative;
@@ -353,19 +239,16 @@ body {
 }
 
 #p3Title {
-    /* border: 3px solid green; */
     font-size: 56px;
     font-weight: 700;
 }
 
 #p3Text {
-    /* border: 3px solid black; */
     font-size: 24px;
     color: rgb(35,39,42);
 }
 
 #fourthPanel {
-    /* border: 3px solid yellow; */
     display: flex;
     background-color: white;
     height: 80vh;
@@ -375,7 +258,6 @@ body {
 }
 
 .rolesPicture {
-    /* border: 3px solid orange; */
     position: relative;
     top: 50px;
     animation-name: contentAnimation;
@@ -385,7 +267,6 @@ body {
 }
 
 .p4Content {
-    /* border: 3px solid orange; */
     width: 25%;
     height: 75%;
     position: relative;
@@ -397,19 +278,16 @@ body {
 }
 
 #p4Title {
-    /* border: 3px solid green; */
     font-size: 56px;
     font-weight: 700;
 }
 
 #p4Text {
-    /* border: 3px solid black; */
     font-size: 24px;
     color: rgb(35,39,42);
 }
 
 #fifthPanel {
-    /* border: 3px solid yellow; */
     display: flex;
     background-color: rgb(212, 212, 212);
     height: 100vh;
@@ -420,7 +298,6 @@ body {
 }
 
 .videoChatPicture {
-    /* border: 3px solid orange; */
     position: relative;
     top: 50px;
     animation-name: contentAnimation;
@@ -430,7 +307,6 @@ body {
 }
 
 .p5Content {
-    /* border: 3px solid orange; */
     display: flex;
     width: 25%;
     height: 75%;
@@ -442,22 +318,18 @@ body {
     animation-duration: 1s;
     flex-direction: column;
     align-items: center;
-    /* justify-items: center; */
 }
 
 #p5Title {
-    /* border: 3px solid green; */
     font-size: 56px;
     font-weight: 700;
     width: 50vw;
     font-family: 'Belanosima', sans-serif;
-    
     margin: 40px;
     margin-top: 100px;
 }
 
 #p5Text {
-    /* border: 3px solid black; */
     font-size: 19px;
     color: rgb(35,39,42);
     margin: 0;
@@ -467,7 +339,6 @@ body {
 }
 
 #bottomPanel {
-    /* border: 3px solid yellow; */
     display: flex;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -490,7 +361,6 @@ body {
     font-size: 32px;
 }
 #bpDlForWindowsButton {
-    /* border: 3px solid red; */
     text-decoration: none;
     height: 100%;
     /* width: 5%; */
@@ -504,7 +374,6 @@ body {
 
 #bpDlButtonLogo {
     position: relative;
-    /* top: 8%; */
 }
 
 #footer1 {
@@ -516,13 +385,11 @@ body {
 }
 
 #langsLinks {
-    /* border: 3px solid red; */
     width: 13%;
     padding-top: 5%;
 }
 
 #langs {
-    /* border: 3px solid red; */
     display: flex;
     align-items: center;
     padding-bottom: 20%;
@@ -557,26 +424,29 @@ body {
 }
 
 #pageBottom {
-    border: 5px solid orange;
-    height: 20vh;
+    display: flex;
+    height: 15vh;
     background-color: rgb(35, 39, 42);
+    justify-content: center;
 }
 
 #pBottomLinks {
-    width: 50%;
+    display: flex;
+    width: 60%;
+    height: 20%;
+    justify-content:space-between;
+    border-top: 1px solid rgb(88, 101, 242);
+    padding-top: 40px;
 }
 
 #pbOpenDiscordButton {
-    border: 5px solid orange;
     display: flex;
-    background-color: white;
-    color: black;
+    background-color: rgb(88, 101, 242);
+    color: white;
     padding: 10px 10px;
     border-radius: 50px;
     border: 0;
     text-decoration: none;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
-    
-    
 }
